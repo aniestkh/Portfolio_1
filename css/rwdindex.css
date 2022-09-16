@@ -15,6 +15,7 @@ font-family: 'Jua', sans-serif;
 /* 
 tablet: 768*1024
 mobile: 400*800
+gallaxy s21: 384*672~777
 */
 
 @media screen and (max-width:1024px) {
@@ -1005,13 +1006,7 @@ mobile: 400*800
     }
 
     #sideart.ver2 {
-        border-radius: 10px;
-        right: 5px;
-        width: 300px;
-        height: 200px;
-        background: #eeefff;
-        padding: 10px;
-        position: fixed;
+        padding: 10px 20px 10px 10px;
     }
 
     #sideart.square {
@@ -1048,7 +1043,8 @@ mobile: 400*800
     }
     
     .side li {
-        width: 30%;
+        width: 20%;
+        margin: 0 15px;
     }
 
     .side h2 {
