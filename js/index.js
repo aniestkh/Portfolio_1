@@ -51,6 +51,7 @@ $('body').on('click', '.closenav', function(){
 $('#header .mainlogo').on('click', function(){
     var wid=$(window).width()
     var hei=$(window).height()
-    alert(wid, hei)
+    alert(wid)
+    alert(hei)
 })
 
