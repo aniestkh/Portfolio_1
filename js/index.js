@@ -47,11 +47,11 @@ $('body').on('click', '.closenav', function(){
     $('.side').css({display:'none'})
 })
 
-// 로고 -> 화면사이즈 
-//$('#header .mainlogo').on('click', function(){
-//   var wid=$(window).width()
-//    var hei=$(window).height()
-//    alert(wid)
-//    alert(hei)
-//})
+// test)핸드폰 가로 세로 크기 구하기
+// $('#header .mainlogo').on('click', function(){
+//     var wid=$(window).width()
+//     var hei=$(window).height()
+//     alert(wid)
+//     alert(hei)
 
+// })
