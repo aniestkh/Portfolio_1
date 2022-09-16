@@ -1,0 +1,1129 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Jua&display=swap');
+@import url('animate.css');
+
+
+/* 
+font-family: 'Prompt', sans-serif;
+font-family: 'DynaPuff', cursive;
+font-family: 'Jua', sans-serif;
+*/
+
+/* 
+tablet: 768*1024
+mobile: 400*800
+*/
+
+@media screen and (max-width:1024px) {
+#header #nav h1 {
+    width: 14%;
+    left: 3%;
+}
+
+#header #nav .menu {
+    left: 20%;
+}
+
+#header #nav .menu .depth1 >li>a{
+    font-size: 25px;    
+}
+
+#header #nav .menu .depth1 .depth2 h2 {
+    /* font-weight: bold; */
+    font-size: 18px;
+    margin-top: 15px;
+    font-family: 'Jua', sans-serif;
+}
+
+#header #nav .menu .depth2 li {
+    font-size: 14px;
+}
+
+#header #nav .menu .depth2 p {
+    font-weight: normal;
+}
+
+#header #nav .menu .depth1 .depth2 {
+    width: 20%;
+    margin-top: 0px;
+    font-weight: normal;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background-color: #edeefd;
+    display: none;
+    position: absolute;
+    top: 100%;
+    transform: translateX(-55px);
+    padding: 5px 10px 20px;
+    display: none;
+}
+
+#header #nav .menu .depth1 .depth3 {
+    padding: 0 10px;
+}
+
+#header .membership {
+    width: 25%;
+    right: 60px;
+}
+
+#header .membership a {
+    font-family: 'DynaPuff', cursive;
+    font-size: 14px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0px 3px;
+    width: 28%;
+    height: 30px;
+    line-height: 1.8em;
+    text-align: center;
+    display: inline-block;
+}
+
+/* section */
+#section h2 {
+    font-size: 30px;
+    /* font-weight: bold; */
+    font-family: 'DynaPuff', cursive;
+    position: relative;    
+    text-shadow: 2px 2px rgba(0,0,0,0.5)
+}
+
+#section h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* article1 */
+#section .art1 {
+    background-position: 50% -50%;
+    padding: 0.6% 0;
+}
+
+/* article2 */
+.art2 {
+    padding: 25px 0;
+}
+.art2 h2 {
+    font-size: 25px !important;
+    color: yellow !important;
+}
+
+.art2 span {
+    font-size: 17px;
+}
+
+.art2 div {
+    line-height: 1em;
+}
+
+.art2 p {
+    text-align: center;
+    padding: 0 35px;
+}
+
+/* article3 */
+#section .art3 {
+    text-align: center;
+    background-color: cornsilk;
+}
+
+#section .art3 .more {
+    top: 70px;
+}
+
+#section .art3 div {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#section .art3 h2::before {
+    content: '';
+    width: 300px;
+    height: 2px;
+    background-color: #ddd;
+    position: absolute;
+    top: 50%;
+    left: 80px;
+}
+
+#section .art3 h2::after {
+    content: '';
+    width: 300px;
+    height: 2px;
+    background-color: #ddd;
+    position: absolute;
+    top: 50%;
+    right: 80px;
+}
+
+#section .art3 ul {
+    padding: 20px 0;
+}
+
+#section .art3 ul li {
+    display: inline-block;
+    width: 26%;
+    height: 175px;
+    vertical-align: top;
+    /* background-color: rgba(255,0,0,0.5); */
+    padding: 5px 10px;
+    margin: 5px 10px 50px;
+    /* text-align: center; */
+    position: relative;
+}
+
+#section .art3 ul li a {
+    height: 100px;
+    /* border: 1px solid #00f; */
+    display: block;
+    margin: 5px 10px;
+    position: relative;
+}
+
+#section .art3 img {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 155px;
+
+}
+
+#section .art3 ul li span {
+    /* background-color: blue; */
+    color: #000;
+    position: absolute;
+    top: 170px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+#section .art3 div {
+    position: relative;
+}
+
+#section .art3 div button {
+    background-color: navy;
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+}
+
+#section .art3 div button a {
+    color: #fff;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+/* article4 */
+
+.art4 {
+    text-align: center;
+    background-color: #c4f6ff;
+    padding: 20px 0;
+}
+
+#section .art4 h2::before {
+    content: '';
+    width: 240px;
+    height: 2px;
+    background-color: rgba(9, 80, 9, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 80px;
+}
+
+#section .art4 h2::after {
+    content: '';
+    width: 240px;
+    height: 2px;
+    background-color: rgba(9, 80, 9, 0.5);
+    position: absolute;
+    top: 50%;
+    right: 80px;
+}
+
+.art4 >div {
+    margin: 0 auto;
+    max-width: 1024px;
+    position: relative;
+}
+
+.art4 >div .perfomance h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 !important;
+}
+
+.art4 div >a {
+    width: 25%;
+    height: 280px;
+    margin: 20px 10px 0;
+    position: relative;
+}
+
+.art4 div button {
+    background-color: navy;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    top: 60px;
+    right: 200px;
+}
+
+.art4 div button a {
+    color: #fff;
+    margin: 0 auto;
+    font-size: 17px;
+    
+}
+
+
+/* article5 */
+.art5 {
+    width: 100%;
+    text-align: center;
+}
+
+#section .art5 h2::before {
+    content: '';
+    width: 300px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 80px;
+}
+
+#section .art5 h2::after {
+    content: '';
+    width: 300px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    right: 80px;
+}
+
+.art5 div {
+    padding: 40px 0;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.art5 div ul {
+    margin-bottom: 30px;
+}
+
+.art5 div ul li {
+    width: 33%;
+    padding-top: 20px;
+    margin-bottom: 80px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.art5 div ul li a {
+    width: 180px; height: 180px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.art5 div ul li p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 250px;
+    left: -50px;
+}
+
+.art5 div ul li a i {
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-25px, -25px);
+}
+
+.art5 div ul li:nth-child(1) a {
+    background: url(../images/clipimg1.jpg) no-repeat;
+    background-size: auto;
+    background-position: -15px 0px;
+}
+
+.art5 div ul li:nth-child(2) a {
+    background: url(../images/clipimg2.jpg) no-repeat;
+    background-size: auto;
+    background-position: -93px 0px;
+}
+
+.art5 div ul li:nth-child(3) a {
+    background: url(../images/clipimg3.jpg) no-repeat;
+    background-size: auto;
+    background-position: -65px -4px;
+}
+
+.art5 div ul li:nth-child(4) a {
+    background: url(../images/clipimg4.jpg) no-repeat;
+    background-size: 180%;
+    background-position: -40px 0px;
+}
+
+/* side */
+#sideart {
+    position: fixed;
+    top: 80px; right: 0px;
+    text-align: center;
+    padding: 0px 15px;
+    background-color: rgba(221,221,221,0.4);
+    border-radius: 10px;
+}
+
+/* footer */
+#footer {
+    position: relative;
+}
+
+#footerbx {
+    position: relative;
+    padding: 80px 0;
+    background-color: #cfb48aa8;
+    height: 250px;
+}
+
+#footer #sidebx {
+    content: '';
+    width: 5%;
+    /* height: 250px; */
+    background-color: #000;
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+}
+
+#footer #footerbx .step1 {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#footer .step1 .ftlogo {
+    width: 35%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#footer .step1 .ftlogo img {
+    padding: 10px 10px;
+}
+
+#footer .sns {
+    float: right;
+    width: 30%;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    letter-spacing: -0.4em;
+
+}
+
+#footer .sns a {
+    padding: 0 6%;
+    font-size: 30px;
+}
+
+#footer .policy {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+
+#footer .policy ul {
+    /* display: block;     */
+    text-align: center;
+    /* transform: translateY(245px); */
+}
+
+#footer .policy ul li {
+    display: inline;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+#footer .step2 {
+    width: 26%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2%;
+    font-size: 18px;
+    font-weight: bold;
+    background: white;
+}
+
+#footer .copyright {
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 0px 10px;
+    background-color: #fff;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+#footer .step2 .copyright p {
+    margin: 5px 0;
+}
+}
+
+@media screen and (max-width:768px) {
+/* tablet */
+#header #nav .menu .depth1 >li>a {
+    font-size: 20px;
+}
+
+#header .membership {
+    width: 25%;
+    right: 20px;
+}
+
+/* section for 768px */
+#section .art3 h2::before,
+#section .art3 h2::after {
+    width: 25%;
+}
+
+#section .art3 h2::after {
+    width: 25%;
+}
+
+#section .art3 ul li {
+    width: 40%;
+}
+
+#section .art3 .more {
+    width: 70px;
+    top: 90px;
+    right: 85px;
+}
+
+.art4 div >a {
+    width: 25%;
+}
+
+.art4 div >.more {
+    width: 70px;
+    top: 70px;
+    right: 70px;
+}
+
+#section .art4 h2::before,
+#section .art4 h2::after {
+    width: 20%;
+}
+
+#section .art5 h2::before,
+#section .art5 h2::after {
+    width: 25%;
+}
+
+
+
+#sideart {
+    display: block;
+    top: auto;
+    bottom: 15px;
+    border-radius: 50%;
+    right: 15px;
+    width: 60px;
+    height: 60px;
+    background: white url(http://localhost:52330/css/../images/sideart_mob.png) no-repeat;
+    background-size: contain;
+}
+
+#sideart.ver2 {
+    border-radius: 10px;
+    right: 5px;
+    width: 300px;
+    height: 200px;
+    background: #eeefff;
+    padding: 10px;
+    position: fixed;
+}
+
+#sideart.square {
+    display: none;
+}
+
+.closenav {
+    font-size: 35px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    z-index: 99;
+}
+
+
+.sideform {
+    content: '';
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background: #000;
+}
+
+.side {
+    display:none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: none;
+}
+
+.side li {
+    width: 30%;
+}
+
+.side h2 {
+    color: #000;
+}
+
+.side img {
+    width: 50px;
+    height: 45px;
+}
+
+.side .top {
+    display: block;
+}
+
+.side .top a i {
+    color: #000;
+    transform: translateY(20px);
+}
+
+/* footer */
+#footerbx {
+    height: 230px;
+}
+
+#footerbx .step1 .ftlogo {
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    width: 40%;
+}
+
+#footer .step2 {
+    width: 35%;
+    top: 120px;
+    right: 30px;
+}
+
+#footer .sns {
+    top: 10px;
+    right: 20px;
+    width: 50%;
+}
+
+}
+
+
+@media screen and (max-width:400px) {
+/* mobile */
+
+    #header {
+        position: relative;
+        top: 0;
+        height: 60px;
+        background: #eeefff;
+    }
+
+    #header #nav .menu .depth1 {
+        display: none;
+    }
+
+    #header #nav .menu .depth1 >li {
+        padding: 0;
+        font-size: 15px;
+        width: 20%;
+    }
+
+    #header #nav .menu .depth1 >li:hover .depth2 {
+        display: none;
+    }
+
+    
+    #header #nav h1 {
+        width: 30%;
+    }
+
+    #header .membership{
+        display: none;
+    }
+    
+    #header .menu .ham {
+        display: block !important;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -65px;
+        width: 40px;
+        height: 32px;
+        text-align: center;
+    }
+    
+    #header .menu .ham i {
+        font-size: 30px;
+        transition: all 0.8s 1s;
+    }
+
+    #header .menu .ham img {
+        float: left;
+        position: absolute;
+        top: 2px;
+        right: 40px;
+        width: 70%;
+        transition: all 0.5s ;
+    }
+
+    #header .menu .hidden {
+        position: absolute;
+        width: 190px;
+        right: 0px;
+        top: 40px;
+        background-color: #eeefff;
+        padding: 15px 15px 25px;
+        border: 2px double #000;
+        box-shadow: #ddd 2px 2px 2px;
+        border-radius: 20px;
+        text-align: left;
+        display: none;
+    }
+    
+    #header .menu .hidden.animate__bounceInDown {
+        animation: bounce 2s;
+        /* animation: bounceInDown 0.5s 0.5s; */
+    }
+
+    #header .menu .hidden li a {
+        font-size: 18px;
+        font-weight: normal;
+        font-family: 'Jua', sans-serif;
+        line-height: 1.5em;
+    }
+    
+    #header .menu .hidden h2 {
+        font-size: 20px;
+        font-weight: bold ;
+        letter-spacing: 0.2em;
+        margin-top: 10px;
+        font-family: 'Jua', sans-serif;
+    }
+
+    #header .menu .hidden .hdmembership {
+        text-align: center;
+        transform: translateY(10px);
+    }
+    
+    #header .menu .hidden .hdmembership li {
+        display: inline;
+    }
+    
+    #header .menu .hidden .hdmembership li a {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'DynaPuff', cursive;
+        margin: 0 5px;
+    }
+
+    #header .menu .hidden li:first-child h2 {
+        margin-top: 0;
+    }
+
+    /* hover는 자식이나 동생만 띄울 수 있음 */
+    /* 개발자모드에서는 호버가 별도로 뜨지 않으므로 클릭으로 확인해야함 */
+    
+    #header .membership {
+        top: 655%;
+        right: 30px;
+    }
+
+    #header .membership button {
+        display: none;
+    }
+
+    /* section_360px */
+    #section {
+        margin-top: 0px;
+    }
+
+    #section h3 {
+        font-size: 16px;
+    }
+    
+    #section .art1 {
+        background-size: 99% 99%;
+        background-position: 3px -2px;
+        padding: 5% 0%;
+    }
+
+    #section .art1 video {
+        transform: translateX(0.5px);
+        width: 93%;
+    }
+
+    .art2 {
+        padding: 20px 0;
+    }
+
+    .art2 p {
+        padding: 0 0 0 15%;
+        text-align: left;
+        margin: 15px 0 0;
+    }
+
+    .art2 span {
+        margin: 0 0;
+        line-height: 1.5em;
+        display: block;
+    }
+
+    #section .art3 {
+        padding-bottom: 13%;
+    }
+
+    #section .art3 img {
+        margin-top: 0px;
+        border-radius: 25px;
+        height: 200px;
+    }
+
+    #section .art3 ul {
+        padding: 10px 0 20px;
+    }
+
+    #section .art3 ul li {
+        width: 100%;
+        margin: 0px 0px 100px;
+        padding: 5px 10px;
+    }
+
+    #section .art3 ul li a {
+        margin: 5px 10px;
+        height: 213px;
+    }
+        
+
+    #section .art3 ul li span {
+        top: 100%;
+    }
+
+    #section .art3 h2::before {
+        /* width: 120px; */
+        /* left: 20px; */
+        display: none;
+    }
+
+    #section .art3 h2::after {
+        /* width: 120px; */
+        /* right: 20px; */
+        display: none;
+    }
+
+    #section .art3 div .more {
+        top: 99%;
+        right: 50%;
+        width: 30%;
+        transform: translateX(50%);
+    }
+
+    #section .art3 ul>li:nth-child(4),
+    #section .art3 ul>li:nth-child(5),
+    #section .art3 ul>li:nth-child(6) {
+        display: none;
+    }
+
+    .art4 {
+        padding: 20px 0 20%;
+    }
+
+    #section .art4 h2::before {
+        /* width: 50px; */
+        /* left: 20px; */
+        display: none;
+    }
+
+    #section .art4 h2::after {
+        /* width: 50px; */
+        /* right: 20px; */
+        display: none;
+    }
+
+    .art4 div .perfomance {
+        padding: 0;
+    }
+
+    .art4 div >a {
+        width: 100%;
+        margin: 20px 0px 10px;
+        padding: 0 20px;
+    }
+
+    .art4 div .more {
+        top: 101.5%;
+        right: 50%;
+        transform: translateX(50%);
+        width: 30%;
+    }
+
+    .art4 .perfomance img {
+        border-radius: 25px;
+    }
+
+    .art4 >div .perfomance h3 {
+        margin: 5px 0!important;
+    }
+
+    #section .art5 h2::before {
+        /* width: 120px; */
+        /* left: 20px; */
+        display: none;
+    }
+
+    #section .art5 h2::after {
+        /* width: 120px; */
+        /* right: 30px; */
+        display: none;
+    }
+
+    .art5 {
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    .art5 div {
+        padding: 20px 0 30px;
+    }
+
+    .art5 div ul {
+        margin-bottom: 0px;
+    }
+
+    .art5 div ul li {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .art5 div ul li a {
+        width: 130px;
+        height: 130px;
+    }
+
+    .art5 div ul li p {
+        font-size: 14px;
+        margin-top: 5px;
+        line-height: 1.2em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transform: translateY(50%);
+        width: 100%;
+        left: 0;
+    }
+
+    .art5 div ul li:nth-child(1) a {
+        background-size: 190%;
+        background-position: -15px 0px;
+    }
+
+    .art5 div ul li:nth-child(2) a {
+        background-size: 260%;
+    }
+
+    .art5 div ul li:nth-child(3) a {
+        background-size: 220%;
+    }
+
+    .art5 div ul li a i {
+        opacity: 0.7;
+        font-size: 30px;
+        transform: translate(-50%, -50%);
+
+    }
+
+    /* outer */
+    .outer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99999;
+        color: #fff;
+        font-size: 40px;
+        background: #000 url(../images/미키휘파람gif.gif) no-repeat;
+        background-size: 80% 30%;
+        background-position: center;
+        display:flex;
+        /* 넓이의 중간 */
+        justify-content: center; 
+        /* 높이의 중간 */
+        align-items: center;
+    }
+
+    /* side */
+    #sideart {
+        display: block;
+        top: auto;
+        bottom: 5px;
+        border-radius: 50%;
+        right: 5px;
+        width: 50px;
+        height: 50px;
+        background: white url(../images/sideart_mob.png) no-repeat;
+        background-size: contain;
+    }
+
+    #sideart.ver2 {
+        border-radius: 10px;
+        right: 5px;
+        width: 300px;
+        height: 200px;
+        background: #eeefff;
+        padding: 10px;
+        position: fixed;
+    }
+
+    #sideart.square {
+        display: none;
+    }
+
+    .closenav {
+        font-size: 35px;
+        position: absolute;
+        top: 0px;
+        right: 10px;
+        z-index: 99;
+    }
+
+
+    .sideform {
+        content: '';
+        width: 500px;
+        height: 500px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        border-radius: 50%;
+        border: 1px solid #000;
+        background: #000;
+    }
+
+    .side {
+        display:none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        background: none;
+    }
+    
+    .side li {
+        width: 30%;
+    }
+
+    .side h2 {
+        color: #000;
+    }
+
+    .side img {
+        width: 50px;
+        height: 45px;
+    }
+
+    .side .top {
+        display: block;
+    }
+
+    .side .top a i {
+        color: #000;
+        transform: translateY(20px);
+    }
+
+    /* footer_360px */
+    #footerbx {
+        margin-top: 0%;
+        padding: 30px 0 60px;
+        height: 150px;
+    }
+
+    #footer #footerbx .step1 {
+        display: inline;
+
+    }
+
+    #footer .copyright {
+        font-size: 10px;
+    }
+
+    #footer #footerbx .step1 {
+        display: block;
+    }
+
+    #footer .step1 .ftlogo {
+        width: 50%;
+        padding: 10px;
+        top: 20px;
+        left: 0;
+    }
+
+    #footer .sns {
+        width: 45%;
+        top: 10px;
+        right: 10px;
+    }
+
+    #footer .sns a >i{
+        font-size: 25px;
+        transform: translate(-15px, -5px);
+    }
+
+    #footer .step2 {
+        width: 43%;
+        top: 55%;
+        right: 10px;
+    }
+
+    #footer .step2 .copyright p:nth-child(2) {
+        display: none;
+    }
+
+    #footer .policy {
+        bottom: 4px;
+    }
+
+    #footer .policy ul li {
+        font-size: 12px;
+        padding: 15px 0px 0;
+    }
+
+}

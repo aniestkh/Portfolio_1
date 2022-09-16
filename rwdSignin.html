@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <script src="./js/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/rwdSignin.css">
+
+    <!--[if lt IE9]>
+        <script src="./js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <header id="header">
+        <nav id="nav">
+            <h1>
+                <a href="./index.html"><img src="./images/logopng.png" alt=""></a>
+            </h1>
+            <div class="menu">
+                <ul class="depth1">
+                    <li><a href="#">파크</a>
+                        <ul class="depth2">
+                            <li><a href="#"><h2>테마파크</h2></a>
+                                <ul class="depth3">
+                                    <li><a href="#">매직킹덤파크</a></li>
+                                    <li><a href="#">앱콧</a></li>
+                                    <li><a href="#">디즈니 할리우드 스튜디오</a></li>
+                                    <li><a href="#">디즈니 애니멀 킹덤</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><h2>워터파크</h2></a>
+                                <ul class="depth3">
+                                    <li><a href="#">디즈니 블리자드 비치</a></li>
+                                    <li><a href="#">타이푼 라군</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><h2>티켓</h2></a>
+                                <ul class="depth3">
+                                    <li><a href="#">티켓</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">숙박</a>
+                        <ul class="depth2">
+                            <li><a href="#"><h2>고급빌라</h2><p>Lorem</p></a></li>
+                            <li><a href="#"><h2>고급 리조트 호텔</h2><p>Lorem</p></a></li>
+                            <li><a href="#"><h2>중간급 리조트 호텔</h2><p>Lorem</p></a></li>
+                            <li><a href="#"><h2>경제적 리조트 호텔</h2><p>Lorem</p></a></li>
+                            <li><a href="#"><h2>캠핑장</h2><p>Lorem</p></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">놀거리</a>
+                        <ul class="depth2">
+                            <li><a href="#"><h2>식사</h2></a>
+                                <ul class="depth3">
+                                    <li><a href="#">레스토랑</a></li>
+                                    <li><a href="#">다양한 식사 옵션</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><h2>액티비티</h2></a>
+                                <ul class="depth3">
+                                    <li><a href="#">어트랙션</a></li>
+                                    <li><a href="#">캐릭터 체험</a></li>
+                                    <li><a href="#">엔터테인먼트</a></li>
+                                    <li><a href="#">이벤트 및 투어</a></li>
+                                    <li><a href="#">쇼핑</a></li>
+                                    <li><a href="#">스파 및 피트니스 센터</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><h2>가봐야할 곳</h2></a>
+                                <ul class="depth3">
+                                    <li><a href="#">디즈니 스프링스</a></li>
+                                    <li><a href="#">디즈니 보드워크</a></li>
+                                    <li><a href="#">토이 스토리 랜드</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">지도</a></li>
+                </ul>
+            </div>
+            <div>
+                <form class="membership">
+                    <a href="./login.html">
+                        <button type="button" id="login">로그인</button>
+                        <label class="spimg" for="login"></label>
+                    </a>
+                    <!-- <a href="./Signin.html">
+                        <button type="button" id="signin">회원가입</button>
+                        <label class="spimg" for="signin"></label>
+                    </a> -->
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <section id="section">
+        <div id="ballpointpenbg"></div>
+        <div id="signbox">
+            <h1>회원가입</h1>
+            <form action="#" class="personalinfo">
+                <p class="name">
+                    <span>이름</span>
+                    <input class="box" type="text" placeholder="이름을 입력하세요"></p>
+                <p>
+                    <span>생년월일</span>
+                    <select class="birth">
+                        <option value="2002년">2002년</option>
+                        <option value="2001년">2001년</option>
+                        <option value="2000년">2000년</option>
+                        <option value="1999년">1999년</option>
+                        <option value="1998년">1998년</option>
+                        <option value="1997년">1997년</option>
+                        <option value="1996년">1996년</option>
+                        <option value="1995년">1995년</option>
+                        <option value="1994년">1994년</option>
+                        <option value="1993년">1993년</option>
+                    </select>
+                    <select class="birth">
+                        <option value="12월12월">12월</option>
+                        <option value="11월12월">11월</option>
+                        <option value="10월12월">10월</option>
+                        <option value="9월">9월</option>
+                        <option value="8월">8월</option>
+                        <option value="7월">7월</option>
+                        <option value="6월">6월</option>
+                        <option value="5월">5월</option>
+                        <option value="4월">4월</option>
+                        <option value="3월">3월</option>
+                        <option value="2월">2월</option>
+                        <option value="1월">1월</option>
+                    </select>
+                    <select class="birth">
+                        <option value="31일">31일</option>
+                        <option value="28일">28일</option>
+                        <option value="25일">25일</option>
+                        <option value="22일">22일</option>
+                        <option value="19일">19일</option>
+                        <option value="16일">16일</option>
+                        <option value="13일">13일</option>
+                        <option value="10일">10일</option>
+                        <option value="7일">7일</option>
+                        <option value="4일">4일</option>
+                        <option value="1일">1일</option>
+                    </select>
+                </p>
+                <p id="id">
+                    <span>아이디</span>
+                    <input class="box id" type="text" placeholder="아이디를 입력하세요">
+                    <button class="idbtn" type="button"><span>중복확인</span></button>
+                </p>
+                <p><span>비밀번호</span><input class="box" type="password" placeholder="특수문자 포함 8자리"></p>
+                <p><span>비밀번호 확인</span><input class="box" type="password" placeholder="비밀번호 확인"></p>
+                <p>
+                    <span>이메일</span>
+                    <input class="box email" type="text">&nbsp;@
+                    <select class="email"> 
+                        <option value="naver.com">naver.com</option>
+                        <option value="daum.net">daum.net</option>
+                        <option value="google.com">google.com</option>
+                    </select>
+                </p>
+                <p class="agree">
+                    <span>메일수신 동의</span>
+                    <input id="emailagree" class="ecb cb" type="checkbox">
+                    <label for="emailagree" class="spimg"></label>
+                    <label class="emailcomment">* 광고성 이메일 수신에 동의합니다.</label>
+                </p>
+                <p><span>주소</span><input class="box" type="text"></p>
+                <p><span>전화번호</span><input class="box" type="number" placeholder="'-' 없이 입력해주세요"></p>
+                <p class="agree">
+                    <span>문자수신 동의</span>
+                    <input id="snsagree" class="scb cb" type="checkbox">
+                    <label for="snsagree" class="spimg"></label>
+                    <label class="snscomment">* 광고성 SNS 수신에 동의합니다.</label>
+                </p>
+                <div class="psbtn">
+                    <button type="button"><span>가입하기</span></button>
+                    <button type="button"><span>취소</span></button>
+                </div>
+            </form>
+        </div>
+
+
+
+
+
+
+
+    </section>
+    <footer id="footer">
+        <div id="sidebx"></div>
+        <div id="emptybx">
+            <div class="sns">
+                <a href="http://www.kakaotalk.com"><i class="fa-brands fa-youtube"></i><span class="blind">유튜브</span></a>
+                <a href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i><span class="blind">인스타그램</span></a>
+                <a href="http://www.facebook.com"><i class="fa-brands fa-facebook-f"></i><span class="blind">페이스북</span></a>
+                <a href="http://www.twitter.com"><i class="fa-brands fa-twitter"></i><span class="blind">트위터</span></a>
+            </div>
+        </div>
+        <div id="footerbx">
+            <div class="step1">
+                <a href="./index.html" class="ftlogo">
+                    <img src="./images/logopng.png" alt="">
+                </a>
+            </div>    
+                <div class="policy">
+                    <ul>
+                        <li><span>Disney.kr</span></li>
+                        <li><span>회사소개</span></li>
+                        <li><span>이용약관</span></li>
+                        <li><span>개인정보보호정책</span></li>
+                    </ul>
+                </div>
+            <div class="step2">
+                    <div class="copyright">
+                        <p>
+                            월트디즈니 컴퍼니 <br>
+                            The Walt Disney Company <br>
+                        </p>
+                        <p>
+                            월트디즈니 컴퍼니 코리아 <br>
+                            The Walt Disney Company Korea 
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </footer>
+    <div>
+</body>
+
+</html>

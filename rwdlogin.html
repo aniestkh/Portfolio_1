@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <script src="./js/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/rwdlogin.css">
+
+    <!--[if lt IE9]>
+        <script src="./js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header id="header">
+        <nav id="nav">
+            <h1>
+                <a href="./index.html"><img src="./images/logopng.png" alt=""></a>
+            </h1>
+            <div class="menu">
+                <ul class="depth1">
+                    <li><a href="#">파크</a>
+                        <ul class="depth2">
+                            <li><a href="#"><h2>테마파크</h2></a>
+                                <ul class="depth3">
+                                    <li><a href="#">매직킹덤파크</a></li>
+                                    <li><a href="#">앱콧</a></li>
+                                    <li><a href="#">디즈니 할리우드 스튜디오</a></li>
+                                    <li><a href="#">디즈니 애니멀 킹덤</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><h2>워터파크</h2></a>
+                                <ul class="depth3">
+                                    <li><a href="#">디즈니 블리자드 비치</a></li>
+                                    <li><a href="#">타이푼 라군</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><h2>티켓</h2></a>
+                                <ul class="depth3">
+                                    <li><a href="#">티켓</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">숙박</a>
+                        <ul class="depth2">
+                            <li><a href="#"><h2>고급빌라</h2><p>Lorem</p></a></li>
+                            <li><a href="#"><h2>고급 리조트 호텔</h2><p>Lorem</p></a></li>
+                            <li><a href="#"><h2>중간급 리조트 호텔</h2><p>Lorem</p></a></li>
+                            <li><a href="#"><h2>경제적 리조트 호텔</h2><p>Lorem</p></a></li>
+                            <li><a href="#"><h2>캠핑장</h2><p>Lorem</p></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">놀거리</a>
+                        <ul class="depth2">
+                            <li><a href="#"><h2>식사</h2></a>
+                                <ul class="depth3">
+                                    <li><a href="#">레스토랑</a></li>
+                                    <li><a href="#">다양한 식사 옵션</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><h2>액티비티</h2></a>
+                                <ul class="depth3">
+                                    <li><a href="#">어트랙션</a></li>
+                                    <li><a href="#">캐릭터 체험</a></li>
+                                    <li><a href="#">엔터테인먼트</a></li>
+                                    <li><a href="#">이벤트 및 투어</a></li>
+                                    <li><a href="#">쇼핑</a></li>
+                                    <li><a href="#">스파 및 피트니스 센터</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><h2>가봐야할 곳</h2></a>
+                                <ul class="depth3">
+                                    <li><a href="#">디즈니 스프링스</a></li>
+                                    <li><a href="#">디즈니 보드워크</a></li>
+                                    <li><a href="#">토이 스토리 랜드</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="./map.html">지도</a></li>
+                </ul>
+            </div>
+            <div>
+                <form class="membership">
+                    <!-- <a href="./login.html">
+                        <button type="button" id="login">로그인</button>
+                        <label class="spimg" for="login"></label>
+                    </a> -->
+                    <a href="./Signin.html">
+                        <button type="button" id="signin">회원가입</button>
+                        <label class="spimg" for="signin"></label>
+                    </a>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <section id="seclogin">
+        <article id="artlog">
+            <div id="overlay"></div>
+            <a href="./index.html" class="backicon">
+                <i class="fa-solid fa-rotate-left"></i>
+                <p>메인화면</p>
+            </a>
+            <h1>Sign here</h1>
+            <form action="#" id="login">
+                <div class="logintag">
+                    <input id="id" type="text" placeholder="아이디를 입력하세요">
+                    <label for="id"></label>
+                    <input id="passwd" type="password" placeholder="비밀번호를 입력하세요">
+                    <label for="passwd"></label>
+                    <a href="#" class="forgot">비밀번호를 잊으셨나요?</a>
+                </div>
+                <p>
+                    <button type="button" class="loginbtn">
+                        <a href="./login.html">로그인</a>
+                    </button>
+                    <button type="button" class="signinbtn">
+                        <a href="./Signin.html">회원가입</a>
+                    </button>
+                </p>
+            </form> 
+         </article>
+        
+    </section>
+    <footer id="footer">
+        <!-- <div id="sidebx"></div> -->
+        <div id="emptybx">
+            <div class="sns">
+                <a href="#"><i class="fa-brands fa-youtube"></i><span class="blind">유튜브</span></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i><span class="blind">인스타그램</span></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i><span class="blind">페이스북</span></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i><span class="blind">트위터</span></a>
+            </div>
+        </div>
+        <div id="footerbx">
+            <div class="innerft">
+                <div class="step1">
+                    <a href="./index.html" class="ftlogo">
+                        <img src="./images/logopng.png" alt="">
+                    </a>
+                    <div class="policy">
+                        <ul>
+                            <li><a href="#">Disney.kr</a></li>
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보보호정책</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="step2">
+                    <div class="copyright">
+                        <span>
+                            월트디즈니 컴퍼니 <br>
+                            The Walt Disney Company <br>
+                        </span>
+                        <span>
+                            월트디즈니 컴퍼니 코리아 <br>
+                            The Walt Disney Company Korea 
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>

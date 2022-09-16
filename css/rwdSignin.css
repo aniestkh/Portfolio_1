@@ -1,0 +1,547 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Jua&display=swap');
+
+/* 
+font-family: 'Prompt', sans-serif;
+font-family: 'DynaPuff', cursive;
+font-family: 'Jua', sans-serif;
+*/
+
+.cf {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+* {
+    word-break: keep-all;
+    font-family: 'Prompt', sans-serif;
+}
+@media screen and (max-width:1024px) {
+    #section #ballpointpenbg {
+        display: none;
+    }
+
+    #section #signbox .photo {
+        right: 7%;
+    }
+
+    #section #signbox {
+        padding: 100px 1% 55px 8%;
+    }
+
+    #section #signbox .personalinfo p span {
+        width: 20%;
+        margin-right: 10px;
+    }
+
+    #section #signbox .personalinfo .name input {
+        width: 45%;
+    }
+
+    #section #signbox .personalinfo #id .id +.idbtn {
+        right: 40px;
+        width: 95px;
+    }
+
+    #signbox .personalinfo .email:nth-child(3) {
+        width: 36% !important;
+        float: right;
+        transform: translatex(-40px);
+    }
+    #signbox .personalinfo #snsagree +label,
+    #signbox .personalinfo #emailagree +label {
+        left: 21%;
+    }
+
+    /* footer */
+    #footer {
+        position: relative;
+    }
+    
+    #footerbx {
+        position: relative;
+        padding: 80px 0;
+        background-color: #cfb48aa8;
+        height: 250px;
+    }
+    
+    #footer #sidebx {
+        content: '';
+        width: 5%;
+        /* height: 250px; */
+        background-color: #000;
+        position: absolute;
+        top: 60px;
+        bottom: 0;
+        left: 0;
+    }
+    
+    #footer #footerbx .step1 {
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    
+    #footer .step1 .ftlogo {
+        width: 35%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    
+    #footer .step1 .ftlogo img {
+        padding: 10px 10px;
+    }
+    
+    #footer .sns {
+        float: right;
+        width: 30%;
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        letter-spacing: -0.4em;
+    
+    }
+    
+    #footer .sns a {
+        padding: 0 6%;
+        font-size: 30px;
+    }
+    
+    #footer .policy {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+    }
+    
+    
+    #footer .policy ul {
+        /* display: block;     */
+        text-align: center;
+        /* transform: translateY(245px); */
+    }
+    
+    #footer .policy ul li {
+        display: inline;
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+    
+    #footer .step2 {
+        width: 26%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 2%;
+        font-size: 18px;
+        font-weight: bold;
+        background: white;
+    }
+    
+    #footer .copyright {
+        border: 1px solid blue;
+        margin: 10px;
+        padding: 0px 10px;
+        background-color: #fff;
+        overflow: hidden;
+        font-size: 14px;
+    }
+    
+    #footer .step2 .copyright p {
+        margin: 5px 0;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    #header #nav .menu .depth1 >li>a {
+        font-size: 20px;
+    }
+    
+    #header .membership {
+        width: 25%;
+        right: 20px;
+    }
+
+    /* section */
+    #section #signbox {
+        margin: 30px auto;
+        height: auto;
+    }
+
+    #section #signbox >h2 {
+        right: 23.4%;
+        width: 15.5%;
+    }
+
+    #section #ballpointpenbg {
+        display: none;
+    }
+
+    #section #signbox .personalinfo .birth,
+    #section #signbox .personalinfo .email,
+    #section #signbox .personalinfo .box {
+        font-size: 14px;
+    }
+
+    .spimg {
+        background: url(../images/spimg.png) no-repeat;
+        background-size: 830%;
+    }
+
+    #signbox .personalinfo #emailagree +label{
+        /* background-color: red; */
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        background-position: -84px -5px;
+        top: 5px;
+        left: 135px;
+    }
+    #signbox .personalinfo #snsagree +label{
+        /* background-color: red; */
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        background-position: -84px -5px;
+        top: 5px;
+        left: 135px;
+    }
+
+    #signbox .personalinfo .agree #snsagree:checked +label {
+        background-position: -84px -45px;
+        /* background-color: red; */
+    }
+
+    #signbox .personalinfo #snsagree +label{
+        /* background-color: red; */
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        background-position: -84px -5px;
+        top: 5px;
+        left: 135px;
+    }
+
+    /* footer */
+    #footerbx {
+        height: 230px;
+    }
+    
+    #footerbx .step1 .ftlogo {
+        position: absolute;
+        top: 0px;
+        left: 60px;
+        width: 40%;
+    }
+    
+    #footer .step2 {
+        width: 35%;
+        top: 120px;
+        right: 30px;
+    }
+    
+    #footer .sns {
+        top: 10px;
+        right: 20px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #header {
+        position: relative;
+        top: 0;
+        height: 60px;
+        background: #eeefff;
+    }
+
+    #header #nav .menu {
+        top: 50%;
+    }
+
+    #header #nav .menu .depth1 {
+        display: none;
+    }
+
+    #header #nav .menu .depth1 >li {
+        padding: 0;
+        font-size: 15px;
+        width: 20%;
+    }
+
+    #header #nav .menu .depth1 >li:hover .depth2 {
+        display: none;
+    }
+
+    
+    #header #nav h1 {
+        width: 30%;
+    }
+
+    #header .membership{
+        display: none;
+    }
+    
+    #header .menu .ham {
+        display: block !important;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -65px;
+        width: 40px;
+        height: 32px;
+        text-align: center;
+    }
+    
+    #header .menu .ham i {
+        font-size: 30px;
+        transition: all 0.8s 1s;
+    }
+
+    #header .menu .ham img {
+        float: left;
+        position: absolute;
+        top: 2px;
+        right: 40px;
+        width: 70%;
+        transition: all 0.5s ;
+    }
+
+    #header .menu .hidden {
+        position: absolute;
+        width: 190px;
+        right: 0px;
+        top: 40px;
+        background-color: #eeefff;
+        padding: 15px 15px 25px;
+        border: 2px double #000;
+        box-shadow: #ddd 2px 2px 2px;
+        border-radius: 20px;
+        text-align: left;
+        display: none;
+    }
+    
+    #header .menu .hidden li a {
+        font-size: 18px;
+        font-weight: normal;
+        font-family: 'Jua', sans-serif;
+        line-height: 1.5em;
+    }
+    
+    #header .menu .hidden h2 {
+        font-size: 20px;
+        font-weight: bold ;
+        letter-spacing: 0.2em;
+        margin-top: 10px;
+        font-family: 'Jua', sans-serif;
+    }
+
+    #header .menu .hidden .hdmembership {
+        text-align: center;
+        transform: translateY(10px);
+    }
+    
+    #header .menu .hidden .hdmembership li {
+        display: inline;
+    }
+    
+    #header .menu .hidden .hdmembership li a {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'DynaPuff', cursive;
+        margin: 0 5px;
+    }
+
+    #header .menu .hidden li:first-child h2 {
+        margin-top: 0;
+    }
+
+    /* hover는 자식이나 동생만 띄울 수 있음 */
+    /* 개발자모드에서는 호버가 별도로 뜨지 않으므로 클릭으로 확인해야함 */
+    
+    #header .membership {
+        top: 655%;
+        right: 30px;
+    }
+
+    #header .membership button {
+        display: none;
+    }
+
+    /* section */
+    #section {
+        margin: 0;
+    }
+    
+    #section #signbox {
+        background-size: 100% 102%;
+        padding: 70px 10px 0 30px;
+        margin: 0;
+    }
+
+    #signbox .personalinfo .email:nth-child(3) {
+        width: 34% !important;
+        transform: translatex(-19px);
+    }
+
+    #section #signbox h1 {
+        font-size: 25px;
+        text-align: center;
+        margin-left: 0;
+        padding-bottom: 0;
+        position: absolute;
+        top: 50px;
+        left: 90px;
+    }
+
+    #section #signbox .photo {
+        top: 26px;
+        right: 26px;
+        width: 90px;
+        height: 90px;
+    }
+
+    #section #signbox .photo-change {
+        background: #fff url(http://localhost:52330/css/../images/믹히2.png) no-repeat;
+        background-size: 110%;
+        background-position: 40% 2px;
+    }
+
+    #section #signbox .personalinfo {
+        padding: 12px 0;
+    }
+
+    #section #signbox .personalinfo p span {
+        width: 20%;
+        font-size: 12px;
+        transform: translate(-9px, 1px);
+        text-align: right;
+        margin-right: 10px;
+    }
+
+    #section #signbox .personalinfo #id .id {
+        width: 47%;
+    }
+    
+    #section #signbox .personalinfo p {
+        height: 40px;
+    }
+
+    #signbox .personalinfo #emailagree +label {
+        width: 30px;
+        height: 30px;
+        left: 85px;
+        background-position: -74px -5px;
+    }
+
+    #signbox .personalinfo #snsagree +label {
+        /* background-color: red; */
+        width: 30px;
+        height: 30px;
+        background-position: -74px -5px;
+        left: 85px;
+    }
+
+    #signbox .personalinfo .agree #snsagree:checked +label,
+    #signbox .personalinfo .agree #emailagree:checked +label {
+        background-position: -75px -39px;
+    }
+
+    #signbox .agree .emailcomment {
+        left: 125px;
+    }
+
+    #signbox .agree .snscomment {
+        left: 125px;
+    }
+
+    #section #signbox .personalinfo .birth, 
+    #section #signbox .personalinfo .email, 
+    #section #signbox .personalinfo .box {
+        height: 25px;
+        font-size: 12px;
+    }
+
+    #section #signbox .personalinfo #id .id +.idbtn {
+        padding: 1px 10px;
+        right: 20px;
+        width: 20%;
+    }
+
+    #section #signbox .personalinfo .idbtn span {
+        float: none;
+        margin: 0 auto;
+    }
+
+    #signbox .personalinfo .psbtn a {
+        padding: 5px 10px;
+        font-size: 16px;
+        font-family: 'Jua', sans-serif;
+    }
+
+    /* footer */
+    #footerbx {
+        margin-top: 0%;
+        padding: 30px 0 60px;
+        height: 150px;
+    }
+
+    #footer #footerbx .step1 {
+        display: inline;
+
+    }
+
+    #footer .copyright {
+        font-size: 10px;
+    }
+
+    #footer #footerbx .step1 {
+        display: block;
+    }
+
+    #footer .step1 .ftlogo {
+        width: 50%;
+        padding: 10px;
+        top: 20px;
+        left: 0;
+    }
+
+    #footer .sns {
+        width: 45%;
+        top: 10px;
+        right: 10px;
+    }
+
+    #footer .sns a >i{
+        font-size: 25px;
+        transform: translate(-15px, -5px);
+    }
+
+    #footer .step2 {
+        width: 43%;
+        top: 55%;
+        right: 10px;
+    }
+
+    #footer .step2 .copyright p:nth-child(2) {
+        display: none;
+    }
+
+    #footer .policy {
+        bottom: 4px;
+    }
+
+    #footer .policy ul li {
+        font-size: 12px;
+        padding: 15px 0px 0;
+    }
+
+}
+
+
+
