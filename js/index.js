@@ -47,17 +47,10 @@ $('body').on('click', '.closenav', function(){
     $('.side').css({display:'none'})
 })
 
-// $('#sideart').on('click', function(){
-//     if($(this).hasClass('ver2')){
-//         $(this).removeClass('ver2').find('.closenav').remove()
-//         $('.side').css({display:'none'})
-//     } else {
-//         $(this).addClass('ver2').append('<div class="closenav"><i class="fa-solid fa-xmark"></i></div>')
-//         $('.side').css({display:'flex'})
-//         $('.side li').css({width:'30%'})
-//         $('.side h2').css({color:'black'})
-//         $('.side .top').css({display:'block'})
-//         $('.side .top i').css({color:'black'})
-//     }
-// })
+// 로고 -> 화면사이즈 
+$('#header .mainlogo').on('click', function(){
+    var wid=$(window).width()
+    var hei=$(window).height()
+    alert(wid, hei)
+})
 
