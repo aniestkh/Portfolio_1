@@ -104,6 +104,13 @@ gallaxy s21: 384*672~777
     padding: 0.6% 0;
 }
 
+.forfun {
+    width: 5%;
+    height: 7%;
+    top: 129px;
+    right: 2.4%;
+}
+
 /* article2 */
 .art2 {
     padding: 25px 0;
@@ -130,6 +137,7 @@ gallaxy s21: 384*672~777
 #section .art3 {
     text-align: center;
     background-color: cornsilk;
+    position: relative;
 }
 
 #section .art3 .more {
@@ -204,10 +212,6 @@ gallaxy s21: 384*672~777
     width: 100%;
     margin: 0 auto;
     font-weight: bold;
-}
-
-#section .art3 div {
-    position: relative;
 }
 
 #section .art3 div button {
@@ -385,12 +389,16 @@ gallaxy s21: 384*672~777
 
 /* side */
 #sideart {
-    position: fixed;
-    top: 80px; right: 0px;
-    text-align: center;
-    padding: 0px 15px;
-    background-color: rgba(221,221,221,0.4);
-    border-radius: 10px;
+    display: block;
+    top: auto;
+    bottom: 5px;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background: white url(http://localhost:52330/css/../images/sideart_mob.png) no-repeat;
+    background-size: contain;
 }
 
 /* footer */
@@ -783,14 +791,35 @@ gallaxy s21: 384*672~777
     }
     
     #section .art1 {
-        background-size: 99% 99%;
-        background-position: 3px -2px;
-        padding: 5% 0%;
+        background-size: 60% 100%;
+        background-position: 50% -2px;
+        height: 180px;
+    }
+
+    #section .art1 div {
+        width: 48% ;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0% 2px;
+        position: relative;
     }
 
     #section .art1 video {
-        transform: translateX(0.5px);
-        width: 93%;
+        /* display: none; */
+        width: 100%;
+        padding: 17.2% 0;
+        /* transform: translateX(-1.6px); */
+    }
+
+    
+    .forfun {
+        width: 3% !important;
+        top: 46%;
+        right: 21.5%;
+    }
+
+    .watcha {
+        display: block;
     }
 
     .art2 {
@@ -858,9 +887,17 @@ gallaxy s21: 384*672~777
         transform: translateX(50%);
     }
 
+    #section .art3.addmore {
+        display: block;
+    }
+
     #section .art3 ul>li:nth-child(4),
     #section .art3 ul>li:nth-child(5),
-    #section .art3 ul>li:nth-child(6) {
+    #section .art3 ul>li:nth-child(6),
+    .art4 .perfomance a:nth-child(4),
+    .art4 .perfomance a:nth-child(5),
+    .art4 .perfomance a:nth-child(6)
+    {
         display: none;
     }
 
@@ -898,6 +935,7 @@ gallaxy s21: 384*672~777
     }
 
     .art4 .perfomance img {
+        width: 100%;
         border-radius: 25px;
     }
 
@@ -947,9 +985,13 @@ gallaxy s21: 384*672~777
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        transform: translateY(50%);
+        transform: translateY(-250%);
         width: 100%;
         left: 0;
+    }
+
+    .art5 div ul li .pin {
+        display: none;
     }
 
     .art5 div ul li:nth-child(1) a {
@@ -999,8 +1041,8 @@ gallaxy s21: 384*672~777
         bottom: 5px;
         border-radius: 50%;
         right: 5px;
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         background: white url(../images/sideart_mob.png) no-repeat;
         background-size: contain;
     }
@@ -1094,7 +1136,7 @@ gallaxy s21: 384*672~777
 
     #footer .sns {
         width: 45%;
-        top: 10px;
+        top: 5%;
         right: 10px;
     }
 

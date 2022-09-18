@@ -1,0 +1,284 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+/* 
+    font-family: 'Prompt', sans-serif;
+*/
+
+.cf {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+* {
+    word-break: keep-all;
+    font-family: 'Prompt', sans-serif;
+}
+
+#header {
+    /* padding: 40px 0; */
+    height: 80px;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    z-index: 9999;
+}
+
+#header #nav {
+    max-width: 100%;
+}
+
+
+#header #nav h1 {
+    width: 10%;
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translatey(-50%);
+    overflow: hidden;
+}
+
+#header #nav h1 img {
+    width: 100%;
+}
+
+#header #nav .menu {
+    width: 60%;
+    display: block;
+    height: auto;
+    position: absolute;
+    top: 37%;
+    left: 18%;
+}
+
+#header #nav .menu .depth1 >li{
+    float: left;
+    width: 15%;
+    font-weight: bold;
+    padding: 0 30px;
+}
+
+#header #nav .menu .depth1 .depth2 h2 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+#header #nav .menu .depth2 li {
+    font-size: 14px;
+}
+
+#header #nav .menu .depth2 p {
+    font-weight: normal;
+}
+
+
+#header #nav .menu .depth1 .depth2 {
+    width: 200px;
+    margin-top: 0px;
+    font-weight: normal;
+    border-radius: 10px;
+    background-color: #ddd;
+    display: none;
+    position: absolute;
+    top: 100%;
+    transform: translateX(-55px);
+    padding: 10px;
+}
+
+#header #nav .menu .depth1 >li:hover >.depth2 {
+    display: block;
+    /* transform: translateX(-40px); */
+    /* opacity: 1; */
+}
+
+
+#header #nav .menu .depth1 .depth3 {
+    padding: 0 10px;
+}
+
+
+#header .membership {
+    position: absolute;
+    top: 60%; right: 20px;
+}
+
+.spimg {
+    background: url(../images/spimg.png) no-repeat;
+    background-size: auto;
+}
+
+#header .membership a:first-child button+label {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: -24px;
+    right: 114px;
+    background-position: -67px -51px;
+}
+
+#header .membership button {
+    display: inline-block;
+    padding: 0 10px;
+    border: none;
+    font-size: 16px;
+}
+
+#header .membership a:nth-child(2) button+label {
+    width: 25px; height: 25px;
+    position: absolute;
+    top: -25px; right: 34px;
+    background-position: -22px -71px;
+}
+
+
+/* section */
+#section {
+    height: 700px;
+}
+/* footer */
+#footer {
+    position: relative;
+}
+
+#footerbx {
+    position: relative;
+    padding: 80px 0;
+    background-color: #cfb48aa8;
+}
+
+#emptybx {
+    width: 23%;
+    height: 80px;
+    background-color: #cfb48aa8;
+    position: absolute;
+    top: -80px;
+    right: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    padding: 20px 0
+}
+
+#footer #sidebx {
+    content: '';
+    width: 5%;
+    /* height: 250px; */
+    background-color: #000;
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+}
+
+#footer #footerbx .step1 {
+    margin: 0 auto;
+    width: 100%;
+    /* position: relative; */
+    text-align: center;
+}
+
+#footer .step1 .ftlogo {
+    width: 25%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+    
+}
+
+#footer .step1 .ftlogo img {
+    padding: 10px 10px;
+    border: 1px solid red;
+}
+
+#footer .sns {
+    /* float: left; */
+    width: 40%;
+    display: inline;
+    /* padding: 5px 0 0 90px; */
+}
+
+#footer .sns a {
+    padding: 0 6%;
+    font-size: 35px;
+}
+
+#footer .policy {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+
+#footer .policy ul {
+    /* display: block;     */
+    text-align: center;
+    /* transform: translateY(245px); */
+}
+
+#footer .policy ul li {
+    display: inline;
+    font-size: 20px;
+    padding: 15px 10px;
+
+}
+
+#footer .step2 {
+        width: 26%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 2%;
+        font-size: 18px;
+        font-weight: bold;
+        background: white;
+}
+
+#footer .copyright {
+    border: 1px solid blue;
+    /* height: 140px; */
+    margin: 20px;
+    padding: 0 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#footer .step2 .copyright p {
+    margin: 10px 0;
+}
+
+/* side */
+.side {
+    position: fixed;
+    top: 80px; right: 0px;
+    text-align: center;
+    padding: 0px 15px;
+    background-color: rgba(221,221,221,0.4);
+    border-radius: 10px;
+}
+
+.side >a {
+    display: block;
+}
+
+
+.side h2 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.side img {
+    width: 70px; height: 60px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.side .thumb:first-child {
+    margin-top: 0px;
+}
+
+.side .top a i {
+    font-size: 40px;
+    margin: 10px 0 ;
+}
