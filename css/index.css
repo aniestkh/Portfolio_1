@@ -153,90 +153,14 @@
     width: 100%;
     background: #000 url(http://localhost:52330/css/../images/tabletimg.png) no-repeat;
     background-size: contain;
-    background-position: 50% 0;
-    height: 400px;
-    padding: 0.6% 0;
+    background-position: 50.3% 0;
     position: relative;
+    padding: 6.5% 29.5%;
 }
 
-
-#section .art1 div {
-    width: 21.5%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0% 0;
-    position: relative;
-    z-index: 0;
-}
-
-#section .art1 div img {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-#section .art1 ul {
-    text-align: center;
-}
-
-#section .art1 video {
-    /* display: none; */
-    width: 100%;
-    padding: 18.1% 0;
-    transform: translateX(-1.6px);
-}
-
-#section .art1 img {
-    opacity: 0.5;
-    top: -175px;
-    z-index: -1;
-    overflow: hidden;
-}
-#section .art1 .imgl {
-    position: absolute;
-    left: -5px;
-}
-
-#section .art1 .imgr {
-    position: absolute;
-    right: -70px;
-}
-
-.vid2 {
-    display: none; 
-    top: 9%;
-    left: 0%;
-    width: 41.1%;
-}
-
-.vid3 {
-    display: none; 
-    top: 14%;
-    left: 0%;
-    width: 41.1%;
-}
-
-.vid2, .vid3 {
-    /* display: none; */
-    z-index: 9999;
-    width: 41.1%;
-    position: absolute;
-}
-
-.watcha {
-    display: block;
-}
-
-.forfun {
-    width: 1.3% !important;
-    height: 6.2%;
-    /* background-color: rgba(255, 0, 0, 0.132); */
-    background-color: red;
-    position: absolute !important;
-    top: 47.4%;
-    right: 37.2%;
-    border-radius: 50%;
-    display: block;
+.art1 .tablet {
+    display: flex;
+    justify-content: center;
 }
 
 /* article2 */
@@ -393,6 +317,8 @@
     position: relative;
 }
 
+
+
 .art4 >div .perfomance h3 {
     font-size: 20px;
     font-weight: bold;
@@ -437,7 +363,11 @@
     padding: 20px 0;
 }
 
-
+.art3 img:hover,
+.art4 img:hover {
+    transform: scale(110%);
+    transition: all 0.5s;
+}
 
 /* article5 */
 .art5 {
@@ -503,7 +433,7 @@
     position: absolute;
     bottom: -20px;
     left: 54px;
-    transition: all 1s 0.5s;
+    transition: all 1s 0.3s;
     opacity: 0;
 }
 
@@ -567,7 +497,6 @@
     padding: 0px 15px;
     background-color: #c0c0c0;
     border-radius: 20px;
-    display: none;
     z-index: 9;
 
 }

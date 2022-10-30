@@ -311,8 +311,7 @@
 
 #emptybx {
     width: 100%;
-    height: 0px;
-    transform: translateY(80px);
+    transform: translateY(100%);
     z-index: 1;
     background: transparent;
 }
@@ -408,7 +407,7 @@
 }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:400px) {
     #header {
         position: fixed;
         top: 0;
@@ -562,6 +561,7 @@
     }
 
     #seclogin #artlog {
+        background: url(../images/ticket_length.png) no-repeat;
         background-size: 100% 90%;
         height: 200px;
         margin: 50px 0 0;
@@ -665,6 +665,10 @@
         transform: translate(50px, 30px);
     }
     
+    #emptybx {
+        transform: translateY(0%);
+    }
+
     #footer .sns {
         width: 45%;
         top: 13px;

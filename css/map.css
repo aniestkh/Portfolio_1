@@ -16,6 +16,9 @@
     clear: both;
 }
 
+body, html {
+    max-width: 1920px;
+}
 * {
     word-break: keep-all;
     font-family: 'Prompt', sans-serif;

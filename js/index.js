@@ -22,8 +22,6 @@ $(window).on('scroll', function(){
         $('#sideart').css({display:'none'})
     }
     
-
-
     // 윈도우) 화면이 푸터에 닿으면 사이드바의 모양 변경
     if(sct>=x5+30 && pmw){
         $('#sideart').addClass('square')
@@ -79,10 +77,10 @@ $('body').on('click', '.closenav, .top', function(){
 })
 
 // article offset
-$('#header .mainlogo').on('click', function(){
-    var r=$('.art3').height()
-    alert(r)
-})
+// $('#header .mainlogo').on('click', function(){
+//     var r=$('.art3').height()
+//     alert(r)
+// })
 
 // .art5 ul li 호버시 이미지 회전 like LP판
 $('.art5 ul li a').hover(
@@ -94,20 +92,9 @@ $('.art5 ul li a').hover(
     }
 )
 
-// 태블릿 홈버튼 누를시 이미지 변경
-function myFunction(){
-    $('.watcha').removeClass('watcha').next().addClass('watcha')
-    $('.art1 video').css({display:'none'})
-
-    if($('.forfun').hasClass('watcha')){
-        $('.art1 div:first-child').addClass('watcha')
-        $('.art1 video').css({display:'block'})
-    }
-}
-
-$('.forfun').on('click', function(){
-    myFunction()
-})
+// $(window).on('load', function(){
+//     $('.art1 .slick-active').siblings().css({display:'none'})
+// })
 
 
 

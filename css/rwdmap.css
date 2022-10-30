@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Jua&display=swap');
+
+/* 
+    font-family: 'Prompt', sans-serif;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Jua', sans-serif;
+*/
+@media screen and (max-width:1024px) {
+
+    #header .membership {
+        right: 2%;
+    }
+
+    #section #sideart {
+        display: none;
+    }
+
+    #section #secmap_text .empty_txt {
+        font-size: 16px;
+    }
+
+
+}
+@media screen and (max-width:400px) {
+    #header #nav .menu {
+        display: none;
+    }
+
+    #header #nav h1 {
+        width: 30%;
+    }
+
+    #header .membership {
+        width: 50%;
+        right: 0%;
+    }
+    
+    #section #secmap {
+        width: 75%;
+    }
+
+    #section #secmap img {
+        width: 100%;
+        height: auto;
+    }
+
+    #section #secmap_text {
+        width: 75%;
+        top: 51%;
+    }
+
+    .mag_txt {
+        height: 500px;
+    }
+
+#footer {
+    display: none;
+}
+
+}
